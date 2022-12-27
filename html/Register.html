@@ -3,16 +3,17 @@
     <title>
         Demo Page
     </title>
-    <link rel="stylesheet" href="myFirstPage.css">
+    <link rel="stylesheet" href="../css/myFirstPage.css">
+    <script type="text/javascript" src="../javascript/vadidation.js"></script>
 </head>
     <body class="body">
         <H2 class="p1">Register Page</h2>
         <div class="form_1">
             <form>
-                <label for="text">First Name : </label>
-                <input type="text" id="text"><br><br>
-                <label for="text">Last Name : </label>
-                <input type="text" id="text"><br><br>
+                <label for="firstName">First Name : </label>
+                <input type="text" id="firstName"><br><br>
+                <label for="lastName">Last Name : </label>
+                <input type="text" id="lastName"><br><br>
                 <label for="DOB">Date of Birth : </label>
                 <input type="date" id="DOB"><br><br>
                 <label for="email">Email Id : </label>
@@ -24,20 +25,20 @@
                 <label for="pass1">Confirm your Password : </label>
                 <input type="password" id="pass1"><br>
                 <label for="gender" style="font-size: 25px;">Gender</label><br>
-                <input type="radio" id="rd1" name="gender">
+                <input type="radio" id="rd1" name="gender" value="Male">
                 <label for="rd1">Male</label>
-                <input type="radio" id="rd2" name="gender">
-                <label for="rd1">Female</label>
-                <input type="radio" id="rd3" name="gender">
-                <label for="rd1">Prefer not to say</label><br>
+                <input type="radio" id="rd2" name="gender" value="Female">
+                <label for="rd2">Female</label>
+                <input type="radio" id="rd3" name="gender" value="Not to say">
+                <label for="rd3">Prefer not to say</label><br>
                 <label for="shipping" style="font-size: 25px;">Shipping Address</label><br>
                 <input type="text" id="shipping"><br><br>
             </form>
         </div>
         <div class="form_1">
             <div>
-                <input type="button" class="btn1" value="Submit"><br><br>
-                <a href='Home.html'><button class="btn1">Home</button></a>
+                <input type="button" class="btn1" value="Submit" onclick="saveCustomerInfo()"><br><br>
+                <a href='../Home.html'><button class="btn1">Home</button></a>
             </div>
         </div>
     </body>
