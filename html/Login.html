@@ -6,7 +6,7 @@
 <body class="body">
     <H2 class="p1">Login Page</h2>
         <div class="form_1">
-            <form>
+            <form id="443">
                 <label for="emailLogin">Email : </label>
                 <input type="email" id="emailLogin"><br><br>
                 <label for="passLogin">Password : </label>
@@ -15,8 +15,9 @@
         </div>
         <div class="form_1">
             <div>
-                <input type="button" class="btn1" value="Submit"><br><br>
-                <a href='../Home.html'><button class="btn1">Home</button></a>
+                <input type="button" class="loginBtn1" value="Submit" onchange="loginCredentials()">
+                <input type="button" class="loginBtn2" value="Clear All" onclick="clearAll()"><br><br>
+                <a href='../Home.html'><button class="loginHome">Home</button></a>
             </div>
         </div>
 </body>

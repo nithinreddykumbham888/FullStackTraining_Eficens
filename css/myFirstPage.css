@@ -21,11 +21,52 @@
     font-size: auto;
 }
 
-.btn1{
+.loginBtn1{
     background-color:aquamarine;
     color:black;
     font-size: 16px;
     cursor: pointer;
+    margin-right: 20px;
+}
+
+.registerBtn1{
+    background-color:aquamarine;
+    color:black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.loginBtn2{
+    background-color:aquamarine;
+    color:black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.registerBtn2{
+    background-color:aquamarine;
+    color:black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.loginHome{
+    background-color:aquamarine;
+    color:black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 65px;
+}
+
+.registerHome{
+    background-color:aquamarine;
+    color:black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 65px;
 }
 
 .header{
@@ -36,6 +77,10 @@
 #shipping{
     width: 100%;
   height: 150px;
+}
+
+#email{
+    width: 65%;
 }
 
 .hmbtn1{

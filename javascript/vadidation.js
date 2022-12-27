@@ -15,4 +15,16 @@ function saveCustomerInfo() {
     var shipping = document.getElementById('shipping').value
     console.log(firstName,lastName,dateOfBirth,email,phoneNumber,password,password1,gender,shipping)
     // console.log(gender)
+    if (password != password1){
+        alert("Passwords doesn't match")
+    }
+}
+
+function loginCredentials(){
+   
+}
+
+function clearAll(){
+    document.getElementById("444").reset()
+    document.getElementById("443").reset()
 }
