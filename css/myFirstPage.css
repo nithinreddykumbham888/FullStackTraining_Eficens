@@ -98,3 +98,26 @@
     cursor: pointer;
     margin-left: 20px;
 }
+
+#tableDecor {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #tableDecor td, #tableDecor th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tableDecor tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #tableDecor tr:hover {background-color: #ddd;}
+  
+  #tableDecor th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
