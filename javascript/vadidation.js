@@ -1,3 +1,4 @@
+
 function saveCustomerInfo() {
     var firstName = document.getElementById('firstName').value
     var lastName = document.getElementById('lastName').value
@@ -13,18 +14,26 @@ function saveCustomerInfo() {
                //console.log("Gender: "+ele[i].value);
     }
     var shipping = document.getElementById('shipping').value
-    console.log(firstName,lastName,dateOfBirth,email,phoneNumber,password,password1,gender,shipping)
+    //console.log(firstName,lastName,dateOfBirth,email,phoneNumber,password,password1,gender,shipping)
     // console.log(gender)
-    if (password != password1){
-        alert("Passwords doesn't match")
+    if(firstName == '' || lastName == '' || dateOfBirth == '' || email == '' || phoneNumber == '' || gender == '' || shipping == ''){
+        alert("input feilds should not be empty")
     }
-}
+    if(password != " "){
+        if (password != password1){
+            alert("Passwords doesn't match")
+        }
+    }
+    else{
+        alert("Password feild should not be empty")
+    }
+    
 
-function loginCredentials(){
-   
+    // validationPage(password1,email)
 }
 
 function clearAll(){
     document.getElementById("444").reset()
-    document.getElementById("443").reset()
 }
+
+
